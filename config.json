@@ -1,0 +1,17 @@
+{
+    "bot":{
+        "token":"your-bot-token",
+        "prefix":"*"
+    },
+    "webhook":{
+        "enabled":false,
+        "url": "your-webhook-url",
+        "custom-image": "your-custom-url-image",
+        "custom-username":"your-custom-username"
+    },
+    "roles":{
+        "_comment":"Assign an integer to user-roles and to bot-roles, then the bot will lookup that id to find it on the server",
+        "user-roles": 123123123123123,
+        "bot-roles":[824999871400116244, 825000128317358100]
+    }
+}
