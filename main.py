@@ -16,7 +16,6 @@ def get_prefix(bot, message):
 
 intents = discord.Intents.default()
 intents.members = True
-intents.reactions = True
 
 
 bot = commands.Bot(
