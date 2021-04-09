@@ -90,7 +90,6 @@ async def on_member_join(member):
 
                         embed = discord.Embed(title=f"{member} joined", description=f"Role {role.mention} assigned", color=0x23cf4b,timestamp=datetime.datetime.utcnow()) #You can edit this embed message
 
-                        #await webhook.send(embed=embed, username=config['webhook']['custom-username'], avatar_url=str(config['webhook']['custom-image']))
                         try:
                             await webhook.send(embed=embed, username=config['webhook']['custom-username'], avatar_url=config['webhook']['custom-image'])
                         except HTTPException:
